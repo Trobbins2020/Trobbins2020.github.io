@@ -1,0 +1,56 @@
+body 
+{
+    background-color: palegoldenrod;
+    text-align: center;
+    font-family: comic sans ms;
+    font-size: large;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+  }
+  header nav li {
+    display: inline;
+    text-align: center;
+    margin-right:5px;
+    list-style: none;
+  }
+  
+  header nav li a {
+    text-decoration: none;
+  }
+
+  h3 {
+    font-family: comic sans ms;
+    margin-top: 30px;
+    font-size: 32px;
+    font-variant: small-caps;
+    height: 25px;
+  }
+
+  
+  /* Unvisited links */
+a:link {
+    color: blue;
+  }
+  /* Visited links */
+  a:visited {
+    color: purple;
+  }
+  /* Hover state */
+  a:hover {
+    color: red; 
+  }
+  /* Focused state */
+  a:focus {
+    color: orange;
+  }
+  /* Activated state */
+  a:active {
+    color: green;
+  }
+
+
+
+ 
